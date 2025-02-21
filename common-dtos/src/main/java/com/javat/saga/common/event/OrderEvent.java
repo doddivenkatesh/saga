@@ -5,8 +5,10 @@ import java.util.UUID;
 
 import com.javat.saga.common.dto.OrderRequestDto;
 
+import lombok.Data;
 import lombok.NoArgsConstructor;
 @NoArgsConstructor
+@Data
 public class OrderEvent implements Event{
 
 	private UUID eventId = UUID.randomUUID();
