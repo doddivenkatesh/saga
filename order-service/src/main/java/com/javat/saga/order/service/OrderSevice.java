@@ -3,6 +3,7 @@ package com.javat.saga.order.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.javat.saga.common.dto.OrderRequestDto;
 import com.javat.saga.common.event.OrderStatus;
@@ -10,7 +11,7 @@ import com.javat.saga.order.entity.PurchaseOrder;
 import com.javat.saga.order.repository.OrderRepository;
 
 import jakarta.transaction.Transactional;
-
+@Service
 public class OrderSevice {
 
 	@Autowired
