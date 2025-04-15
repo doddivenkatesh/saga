@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  security:
+    oauth2:
+      authorizationserver:
+        client:
+          my-client:
+            registration:
+              client-id: my-client
+              client-secret: my-secret
+              client-authentication-methods:
+                - client_secret_basic
+              authorization-grant-types:
+                - password
+                - client_credentials
+              scopes:
+                - read
+                - write
