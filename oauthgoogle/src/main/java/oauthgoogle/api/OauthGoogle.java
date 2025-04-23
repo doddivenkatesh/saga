@@ -21,3 +21,8 @@ public class OauthGoogle {
 //npx create-react-app my-react-app
 //https://youtu.be/_FdKTSFnWeg?si=p9ByFbmcSvuY_Bi1 // full stack ecommerce
 //https://youtu.be/BLlEgtp2_i8?si=__v7nmtO7Jj8hEn4 /// spring microse company microservies
+
+
+//https://youtu.be/NQA5mKtm8DQ?si=XkxR0swU7ud7WAS0  bootstrap reference
+
+//context,signup,api,protectedroute
